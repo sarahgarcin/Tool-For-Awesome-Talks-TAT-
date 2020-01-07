@@ -1,6 +1,7 @@
 # Tool For Awesome Talks (TAT)
 Un outil web permettant de réaliser facilement un support de présentation pour conférence
-![](tat-screenshot.png)
+<br>
+![TAT](tat-screenshot.png)
 
 # Démo
 
