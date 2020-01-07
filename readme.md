@@ -14,16 +14,6 @@ http://sarahgarcin.com/tat-demo/
 - Supprimer tous les contenus dans le dossier “images”
 - Remplir le dossier “images” avec les contenus de la conférence rangés dans l’ordre alphabétique
 
-## Visualiser la conférence
-- Ouvrir le Terminal
-- Glisser le dossier de votre conférence sur l’icône du Terminal dans le Dock. Exemple: glisser le dossier “conference-TAT” sur l’icône Terminal. 
-- Une fenêtre du terminal va s’ouvrir
-- taper la commander “php -S localhost:8080”
-- puis appuyer sur Enterré
-- Ouvrir votre navigateur préféré
-- Entrer localhost:8080 dans la barre d’url
-- Votre conférence apparait (normalement) 
-
 ## Ajouter des médias
 - Vous pouvez mettre des fichiers image (jpg, png ou gif) dans le dossier “images”, ces images s’afficheront en pleine page dans l’interface
 - Vous pouvez mettre des fichiers son (wav ou mp3) dans le dossier “images”, un lecteur audio s’affichera
