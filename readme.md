@@ -73,7 +73,8 @@ il est aussi possible de remplacer seulement l’identidiant de la vidéo dans l
 - Écrire la légende en markdown dans le fichier
 
 
-
+# Licence
+[GPL](https://www.gnu.org/licenses/gpl-3.0.html)
 
 
  
