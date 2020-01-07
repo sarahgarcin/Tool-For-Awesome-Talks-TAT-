@@ -1,4 +1,8 @@
-# Manuel d’instructions pour le Tool For Awesome Talk
+# Tool For Awesome Talks (TAT)
+Outil web de support de conférence
+![](tat-screenshot.png)
+
+# Manuel d’instructions pour le Tool For Awesome Talks
 
 ## Créer une nouvelle conférence
 - Dupliquer le dossier “conference-TAT”, le renommer avec le nom de la conférence
