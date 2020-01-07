@@ -1,0 +1,169 @@
+:root{
+  --image-width: 6vw;
+}	
+
+*{
+	box-sizing: border-box;
+}
+
+body{
+	margin: 0; 
+	padding: 0; 
+	line-height: 1.2;
+	font-size: 12px;
+}
+
+img{
+	width: 100%;
+}
+
+ul, figure{
+	margin:0; 
+	padding:0;
+}
+
+li{
+	list-style: none;
+}
+
+.row{
+	display:flex;
+}
+
+.damier{
+	width: 25%;
+}
+
+.damier ul{
+	display: flex;
+	flex-wrap: wrap;
+	position:relative;
+}
+
+.damier ul.liste-damier > li{
+	width: var(--image-width);;
+	height: var(--image-width);;
+	overflow: hidden;
+	cursor: pointer;
+	border: 0.01em solid #DFDFDF;
+} 
+
+.damier ul.liste-damier > li:hover, .damier ul.liste-damier > li.active{
+	border: 2px solid red;
+}
+
+.damier ul.liste-damier li figure img{
+	 	width: var(--image-width);; 
+	 	height: var(--image-width);;
+	  -o-object-fit: cover;
+	  object-fit: cover;
+	  object-position: 0 0;
+}
+
+.damier ul.liste-damier > li.texte{
+	font-size: 10px;
+	padding: 5px;
+	background: #000; 
+	color: #FFF;
+	position: relative;
+}
+
+.damier ul.liste-damier a:visited, .damier ul.liste-damier a{
+	color: #FFF;
+}
+
+// .damier ul.liste-damier > li.texte::after{
+// 	content: "✎"; 
+// 	position:absolute;
+// 	bottom: 5px;
+// 	right: 10px;
+// 	color: red;
+// 	font-size:15px;
+// }
+
+.damier ul.liste-damier .texte-overlay{
+	position: absolute;
+	top:0;
+	left:0;
+	right: 0; 
+	bottom:0;
+	z-index:3;
+}
+
+.damier ul.liste-damier > li.pdf{
+	background: #83FF7C; 
+}
+
+.damier ul.liste-damier > li.video{
+	background: #B6C3FF; 
+}
+
+.damier ul.liste-damier > li.audio{
+	background: #FFD9CC; 
+}
+
+
+.damier ul.liste-damier > li h1{
+	font-size: 12px;
+	padding: 5px;
+
+}
+
+.preview{
+	width: 75%;
+	// border: 3px solid #000;
+	height: 100vh;
+	position:fixed;
+	left: 25%;
+	padding: 15px 0;
+	overflow: auto;
+}
+
+.preview.texte img{
+	width: 100%;
+	display: block;
+}
+
+.preview.image img{
+	width: 100%;
+	height: calc(100vh - 30px);
+	-o-object-fit: contain;
+  object-fit: contain;
+  transition: all 0.3s linear;
+}
+
+.preview.image .legend{
+	font-size: 20px;
+	text-align: center;
+	width: 80%; 
+	margin: auto;
+}
+
+.preview video{
+	width: 100%;
+	margin-top: 20px;
+}
+
+
+.preview object{
+	width: 100%;
+	height: 100vh;
+}
+
+.bleu{color: blue;}
+.rouge{color: red;}
+.jaune{color: yellow;}
+.orange{color: orange;}
+.vert{color: green;}
+.violet{color: purple;}
+
+
+
+
+
+
+
+
+
+
+

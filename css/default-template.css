@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css?family=Spectral&display=swap');
+
+body{
+	font-family: "Spectral", serif;
+}
+
+.preview.texte{
+	background: #000; 
+	color: #FFF;
+	padding: 50px 10% 100px 10%;
+}
+
+.preview.texte .image-wrapper{
+	// position: relative;
+	margin-top: 50px;
+	margin-bottom: 80px;
+
+}
+
+.preview.texte p{
+	font-size: 1.8vw;
+}
+
+.preview.texte h1{
+	font-size: 5vw;
+
+}
+
+.preview.texte h2{
+	font-size: 4vw;
+
+}
+
+.preview.texte h3{
+	font-size: 3.2vw;
+	text-decoration: underline;
+}
+
+.preview.texte h4{
+	font-size: 3.2vw;
+	font-weight: normal;
+}
+
+.preview.texte h5{
+	font-size: 2.5vw;
+	font-weight: normal;
+}
+
+.preview.texte h6{
+	font-size: 1.5vw;
+	font-weight: normal;
+}
+
+.preview.texte a{
+	color: blue; 
+}
+
+.preview.texte ul{
+	font-size: 1.8vw; 
+}
+
+.preview.texte ul li{
+	margin-bottom: 10px;
+}
+
+.preview.texte ul li::before{
+	content:"—";
+	margin-right: 20px; 
+
+}

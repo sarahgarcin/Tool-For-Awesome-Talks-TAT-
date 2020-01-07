@@ -1,0 +1,4 @@
+## Une image dans une slide
+
+![](images/08.jpg)  
+avec une petite légende 

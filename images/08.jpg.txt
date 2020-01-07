@@ -1,0 +1,1 @@
+un test de légende d’une image et si je mets une légende hyper longue avec des *trucs en italique* ?  encore plus de trucs et du **bold**
