@@ -1,6 +1,10 @@
 # Tool For Awesome Talks (TAT)
-Outil web de support de conférence
+Un outil web permettant de réaliser facilement un support de présentation pour conférence
 ![](tat-screenshot.png)
+
+# Démo
+
+http://sarahgarcin.com/tat-demo/
 
 # Manuel d’instructions pour le Tool For Awesome Talks
 
