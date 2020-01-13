@@ -14,7 +14,7 @@
 		<div class="damier">
 		
 			<?php 
-				error_reporting(E_ALL);
+				// error_reporting(E_ALL);
 				@include "utils.php";
 				include 'libs/Parsedown.php'; 
   			$Parsedown = new Parsedown();
